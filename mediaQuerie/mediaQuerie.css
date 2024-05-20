@@ -1,0 +1,72 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+    margin: 10px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: #f2f2f2;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+main section {
+    flex: 3;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+main aside {
+    flex: 1;
+    background-color: #e9e9e9;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+/* Media Queries para telas menores */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main section {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

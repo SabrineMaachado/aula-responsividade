@@ -1,0 +1,68 @@
+A sintaxe básica de uma media query é:
+
+@media (condição) {
+    /* Estilos CSS aplicados se a condição for verdadeira */
+}
+
+Exemplos de Condições Comuns
+Largura da Tela:
+
+Max-width: Aplica estilos quando a largura da tela é menor ou igual a um valor especificado.
+
+css
+Copy code
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+Neste exemplo, o fundo do body será azul claro quando a largura da tela for de 600 pixels ou menos.
+
+Min-width: Aplica estilos quando a largura da tela é maior ou igual a um valor especificado.
+
+css
+Copy code
+@media (min-width: 601px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+Aqui, o fundo do body será verde claro quando a largura da tela for de 601 pixels ou mais.
+
+Altura da Tela:
+
+Max-height: Aplica estilos quando a altura da tela é menor ou igual a um valor especificado.
+css
+Copy code
+@media (max-height: 800px) {
+    body {
+        font-size: 14px;
+    }
+}
+Neste exemplo, o tamanho da fonte do body será 14 pixels quando a altura da tela for de 800 pixels ou menos.
+Orientação:
+
+Portrait: Aplica estilos quando a tela está em modo retrato (vertical).
+
+css
+Copy code
+@media (orientation: portrait) {
+    body {
+        background-color: lightyellow;
+    }
+}
+Landscape: Aplica estilos quando a tela está em modo paisagem (horizontal).
+
+css
+Copy code
+@media (orientation: landscape) {
+    body {
+        background-color: lightcoral;
+    }
+}
+
+
+Vantagens das Media Queries
+Flexibilidade: Permite criar layouts que se adaptam a diferentes tamanhos de tela e dispositivos.
+Melhoria na Experiência do Usuário: Garante que o conteúdo seja legível e a navegação seja fácil em qualquer dispositivo.
+Facilidade de Manutenção: Permite organizar o CSS em seções distintas para diferentes dispositivos, facilitando a manutenção e atualizações futuras.

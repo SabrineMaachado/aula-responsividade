@@ -1,0 +1,19 @@
+Grid
+CSS Grid Layout é um modelo de layout bidimensional que permite a criação de layouts complexos e responsivos de maneira mais simples e eficiente do que técnicas anteriores.
+
+Conceitos Principais
+Container de Grade:
+
+O elemento pai que utiliza display: grid.
+Itens de Grade:
+
+Os elementos filhos diretos do container de grade.
+Propriedades do Container de Grade
+display: grid: Define um container de grade.
+grid-template-columns e grid-template-rows: Define as colunas e linhas do grid.
+gap: Define o espaço entre as linhas e colunas.
+grid-template-areas: Nomeia as áreas do grid para facilitar o posicionamento dos itens.
+Propriedades dos Itens de Grade
+grid-column: Define a posição de início e fim da coluna do item.
+grid-row: Define a posição de início e fim da linha do item.
+grid-area: Atribui o item a uma área nomeada do grid.

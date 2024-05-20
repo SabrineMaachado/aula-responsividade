@@ -1,0 +1,23 @@
+Flexbox
+Flexbox (ou Flexible Box Layout) é um modelo de layout unidimensional que facilita a distribuição de espaço entre itens de um container e melhora a capacidade de alinhamento dos mesmos.
+
+Conceitos Principais
+Container Flexível:
+
+O elemento pai que utiliza display: flex ou display: inline-flex.
+Itens Flexíveis:
+
+Os elementos filhos diretos do container flexível.
+Propriedades do Container Flexível
+display: flex: Define um container flexível.
+flex-direction: Define a direção dos itens no container (row, row-reverse, column, column-reverse).
+justify-content: Alinha os itens ao longo do eixo principal (start, end, center, space-between, space-around, space-evenly).
+align-items: Alinha os itens ao longo do eixo transversal (stretch, start, end, center, baseline).
+flex-wrap: Define se os itens devem ou não quebrar para uma nova linha (nowrap, wrap, wrap-reverse).
+Propriedades dos Itens Flexíveis
+order: Define a ordem dos itens.
+flex-grow: Define a capacidade do item de crescer.
+flex-shrink: Define a capacidade do item de encolher.
+flex-basis: Define o tamanho inicial do item antes da distribuição do espaço restante.
+align-self: Permite que o item se alinha de forma diferente dos outros itens (auto, start, end, center, baseline, stretch).
+
